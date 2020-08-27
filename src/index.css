@@ -3,4 +3,196 @@
   margin: 0;
   padding: 0;
 }
+
+button {
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #269dff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Header {
+  padding: 10px 15%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+  -webkit-box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+}
+
+.Header .links {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.Header .links .link {
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.Footer {
+  -webkit-box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Home {
+  background-repeat: no-repeat;
+}
+
+.Home .container {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 15%;
+}
+
+.Home .container .content {
+  margin-top: 20px;
+  text-align: center;
+  color: #474747;
+}
+
+.Home .container .register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 20px;
+}
+
+.Home .container .register .text {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px;
+  color: #0f9d58;
+}
+
+.Register .container {
+  margin: 10px 15%;
+}
+
+.Register .container .heading {
+  margin-top: 30px;
+  font-size: 28px;
+}
+
+.Register .container .sub-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Register .container .section {
+  margin: 30px 0;
+}
+
+.Register .container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.Register .container .card {
+  -webkit-box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  width: 30%;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.Register .container .card .card-head {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.Register .container .card .card-body {
+  color: #363636;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding: 10px 10%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .Header .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Header .links {
+    margin-top: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+  }
+  .Home img {
+    height: 120px;
+  }
+  .Register .cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .Register .cards .card {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=index.css.map */
