@@ -14,7 +14,7 @@ const Home = ({ history }) => {
             />
           </div>
           <div className="content">
-            Developer Student Club GEU is a student community focused on
+            Developer Student Club GEU is a inititiative by <span id="G">G</span><span id="o">o</span><span id="o2">o</span><span id="g">g</span><span id="l">l</span><span id="e">e</span> Developers student community focused on
             building and imparting technical skills to students, so that their
             transition to industry professionals becomes easier. We figure out
             problems, and then we figure out solutions, all through technology.

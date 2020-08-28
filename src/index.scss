@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+      format("woff2");
+}
+
 * {
   font-family: "Product Sans";
   margin: 0;
@@ -8,6 +17,13 @@ $green: #0f9d58;
 $blue: #4285f4;
 $yellow: #fbbc04;
 $red: #ea4335;
+
+#G { color: $blue;}
+#o { color: $red;}
+#o2 { color: $yellow;}
+#g { color: $blue;}
+#l { color: $green;}
+#e { color: $red;}
 
 //Common
 a.apply {
@@ -41,9 +57,9 @@ a {
       max-width: max-content;
       user-select: none;
     }
-    .selected{
+    .selected {
       color: $blue;
-      border-bottom: 2px solid $blue ;
+      border-bottom: 2px solid $blue;
     }
   }
 }
@@ -51,7 +67,7 @@ a {
 .Footer {
   box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
   display: flex;
-  margin-top:30px ;
+  margin-top: 30px;
   padding: 20px;
   justify-content: center;
 }
@@ -80,7 +96,12 @@ a {
     .content {
       margin-top: 20px;
       text-align: center;
+      font-size: 18px;
       color: #474747;
+      img {
+        display: inline-block;
+        height: 20px;
+      }
     }
     .register {
       display: flex;
@@ -196,24 +217,24 @@ a {
   .right {
     border-radius: 0px 20px 20px 0px;
   }
-  .selected{
+  .selected {
     color: white;
     background: $blue;
   }
 }
 
-.Content{
-  .heading{
-    font-size:32px ;
+.Content {
+  .heading {
+    font-size: 32px;
   }
-  .content{
-    ul{
+  .content {
+    ul {
       list-style-type: none;
       font-size: 22px;
       text-align: left;
-      li{
-        .explain{
-          font-size: 18px ;
+      li {
+        .explain {
+          font-size: 18px;
           margin-left: 40px;
         }
       }
@@ -238,8 +259,8 @@ a {
     }
   }
   .Home {
-    .container{
-margin: 0;
+    .container {
+      margin: 0;
     }
     img {
       height: 120px;
@@ -256,23 +277,22 @@ margin: 0;
       }
     }
   }
-  .Content{
-    .heading{
-      font-size:20px ;
+  .Content {
+    .heading {
+      font-size: 20px;
     }
-    .content{
-      ul{
+    .content {
+      ul {
         list-style-type: none;
         font-size: 16px;
         text-align: left;
-        li{
-          .explain{
-            font-size: 14px ;
+        li {
+          .explain {
+            font-size: 14px;
             margin-left: 40px;
           }
         }
       }
     }
   }
-  
 }

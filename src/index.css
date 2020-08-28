@@ -1,7 +1,38 @@
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+
 * {
   font-family: "Product Sans";
   margin: 0;
   padding: 0;
+}
+
+#G {
+  color: #4285f4;
+}
+
+#o {
+  color: #ea4335;
+}
+
+#o2 {
+  color: #fbbc04;
+}
+
+#g {
+  color: #4285f4;
+}
+
+#l {
+  color: #0f9d58;
+}
+
+#e {
+  color: #ea4335;
 }
 
 a.apply {
@@ -113,7 +144,13 @@ a {
 .Home section .content {
   margin-top: 20px;
   text-align: center;
+  font-size: 18px;
   color: #474747;
+}
+
+.Home section .content img {
+  display: inline-block;
+  height: 20px;
 }
 
 .Home section .register {
