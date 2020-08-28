@@ -17,52 +17,45 @@ const Home = ({ history }) => {
               <li>
                 💠&nbsp; Web Developement
                 <div className="explain">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita, provident.
+                  It will include Full Stack Web Development. (Every Stack is
+                  welcomed whether it be MERN, MEAN , MEVN etc...)
                 </div>
               </li>
 
               <li>
                 💠&nbsp; Implementation For Native Apps.
                 <div className="explain">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita, provident.
+                  It will include Technologies like Flutter(By Google), React
+                  Native(Facebook's implementation for mobile apps, recently got
+                  support for windows),Electron(Develop Desktop Apps using
+                  JS),Ionic etc...
                 </div>
               </li>
               <li>
                 💠&nbsp; Native Mobile Development
                 <div className="explain">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita, provident.
+                  It includes Kotlin/Java for Android. <br /> and Swift for iOS
                 </div>
               </li>
               <li>
                 💠&nbsp; Cloud Computing
                 <div className="explain">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita, provident.
+                  Cloud computing is the on-demand availability of computer
+                  system resources. This will include GCP(Google Cloud
+                  Platform), AWS, Microsoft Azure
                 </div>
               </li>
               <li>
                 💠&nbsp; ML/AI
-                <div className="explain">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita, provident.
-                </div>
+                <div className="explain"></div>
               </li>
               <li>
                 💠&nbsp; Cyber Security And Networking
-                <div className="explain">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita, provident.
-                </div>
+                <div className="explain"></div>
               </li>
               <li>
                 💠&nbsp; IoT and AR / VR
-                <div className="explain">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita, provident.
-                </div>
+                <div className="explain"></div>
               </li>
             </ul>
           </div>
