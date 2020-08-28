@@ -13,7 +13,7 @@ const Register = ({ history }) => {
   const positions = {
     nontech: [
       {
-        title: "Editorial Inchief",
+        title: "Editorial In Chief",
         body:
           "A Essential core team member that will handle the ideation and creation of compelling content including social media content website articles and some other few technical writings.",
         role:
