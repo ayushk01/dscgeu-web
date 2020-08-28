@@ -8,6 +8,8 @@ import Register from './pages/Register';
 //Importing Components
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Domains from './pages/Domains';
+import Why from './pages/Why';
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/register" exact component={Register} />
+          <Route path="/why" exact component={Why} />
+          <Route path="/domains" exact component={Domains} />
         </Switch>
         <Footer />
       </Router>

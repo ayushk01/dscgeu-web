@@ -1,14 +1,15 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 const Header = ({ history }) => {
+    const url = String(history.location.pathname)
     return (
         <div className="Header">
-            <div className="logo">
-                <img alt="Logo" height={60} src={require("../assets/logo/side_color.png")} />
+            <div className="lPogo">
+                <img alt="Logo" height={60} onClick={() => history.push('/')} src={require("../assets/logo/side_color.png")} />
             </div>
             <div className="links">
-                <div className="link" onClick={() => history.push('/')}>Home</div>
-                <div className="link" onClick={() => history.push('/register')}>Register</div>
+                <div className={(url === '/') ? "link selected" : "link"} onClick={() => history.push('/')}>Home</div>
+                <div className={(url === '/register') ? "link selected" : "link"} onClick={() => history.push('/register')}>Register</div>
             </div>
         </div>
     )

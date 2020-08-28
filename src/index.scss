@@ -4,15 +4,21 @@
   padding: 0;
 }
 
+$green: #0f9d58;
+$blue: #4285f4;
+$yellow: #fbbc04;
+$red: #ea4335;
+
 //Common
-button {
+a.apply {
   outline: none;
+  cursor: pointer;
   border: none;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 16px;
-  background: #269dff;
+  background: $blue;
 }
 
 a {
@@ -32,7 +38,12 @@ a {
     grid-template-columns: 1fr 1fr;
     .link {
       cursor: pointer;
+      max-width: max-content;
       user-select: none;
+    }
+    .selected{
+      color: $blue;
+      border-bottom: 2px solid $blue ;
     }
   }
 }
@@ -40,19 +51,32 @@ a {
 .Footer {
   box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
   display: flex;
+  margin-top:30px ;
   padding: 20px;
   justify-content: center;
 }
 
 .Home {
-  background-repeat: no-repeat;
+  background: no-repeat url("./assets/vectors/back2.svg");
+  background-size: cover;
   .container {
-    height: 80vh;
+    margin: 0 15%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  section {
+    background: white;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 15%;
     .content {
       margin-top: 20px;
       text-align: center;
@@ -88,9 +112,9 @@ a {
     .section {
       margin: 30px 0;
     }
-    .cards{
+    .cards {
       display: flex;
-      align-items: center;
+      align-items: initial;
       justify-content: flex-start;
     }
     .card {
@@ -98,14 +122,100 @@ a {
       padding: 30px;
       width: 30%;
       border-radius: 20px;
-      margin: 10px ;
-      .card-head{
+      margin: 10px;
+      .card-head {
         font-size: 22px;
         margin-bottom: 10px;
       }
-      .card-body{
+      .card-body {
         color: #363636;
         margin-bottom: 15px;
+        .main {
+        }
+        .role {
+          // color: $green;
+          margin-top: 10px;
+          margin-bottom: 30px;
+        }
+      }
+      .alert {
+        padding: 15px;
+        border-radius: 20px;
+        background: lighten($red, 35);
+        text-align: center;
+        color: $red;
+      }
+    }
+  }
+}
+
+.bar {
+  display: flex;
+  margin-top: 7px;
+  .bar1 {
+    background: $blue;
+    width: 100px;
+    height: 3px;
+    border-radius: 100px;
+  }
+  .bar2 {
+    background: $red;
+    margin-left: 3px;
+    width: 30px;
+    height: 3px;
+    border-radius: 100px;
+  }
+  .bar3 {
+    background: $yellow;
+    margin-left: 3px;
+    width: 10px;
+    height: 3px;
+    border-radius: 100px;
+  }
+}
+
+.Slider {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+  button {
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: white;
+    color: $blue;
+    cursor: pointer;
+  }
+  .middle {
+    border-radius: 0px;
+  }
+  .left {
+    border-radius: 20px 0px 0px 20px;
+  }
+  .right {
+    border-radius: 0px 20px 20px 0px;
+  }
+  .selected{
+    color: white;
+    background: $blue;
+  }
+}
+
+.Content{
+  .heading{
+    font-size:32px ;
+  }
+  .content{
+    ul{
+      list-style-type: none;
+      font-size: 22px;
+      text-align: left;
+      li{
+        .explain{
+          font-size: 18px ;
+          margin-left: 40px;
+        }
       }
     }
   }
@@ -128,16 +238,41 @@ a {
     }
   }
   .Home {
+    .container{
+margin: 0;
+    }
     img {
       height: 120px;
     }
   }
-  .Register{
-    .cards{
+  .Register {
+    .container {
+      margin: 10px 7%;
+    }
+    .cards {
       flex-wrap: wrap;
-      .card{
-        width: 100% ;
+      .card {
+        width: 100%;
       }
     }
   }
+  .Content{
+    .heading{
+      font-size:20px ;
+    }
+    .content{
+      ul{
+        list-style-type: none;
+        font-size: 16px;
+        text-align: left;
+        li{
+          .explain{
+            font-size: 14px ;
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+  }
+  
 }
