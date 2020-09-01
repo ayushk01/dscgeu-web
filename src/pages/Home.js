@@ -20,10 +20,7 @@ const Home = ({ history }) => {
             problems, and then we figure out solutions, all through technology.
           </div>
           <div className="register">
-            <div className="text">Currently Hiring For Core Team</div>
-            <a className="apply" onClick={() => history.push("/register")}>
-              Apply Now
-            </a>
+            <div className="text">Sorry Registrations has been closed </div>
           </div>
         </section>
 

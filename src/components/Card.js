@@ -26,9 +26,9 @@ const Card = ({ title, role, body, formLink, isAlert }) => {
             Will be selected internally From Core Team Candidates
           </div>
         ) : (
-          <a href={formLink} className="apply">
-            Apply Now
-          </a>
+          <div className="alert">
+            Applications Closed
+          </div>
         )}
       </div>
     </div>
