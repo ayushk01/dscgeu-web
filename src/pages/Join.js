@@ -14,19 +14,39 @@ const Register = ({ history }) => {
 					</div>
 					<div className="content">
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Saepe, ab?
+							To become a member at DSC Please follow the below
+							mentioned Steps
 						</p>
 						<h3>Step 1: </h3>
-						<p>Lorem ipsum dolor sit amet.</p>
-						<button className="apply">Join On the Site</button>
+						<p>
+							Go to the DSC Community site and register yourself
+							thereand join Graphic Era DSC Page
+						</p>
+						<a
+							className="apply"
+							href="https://dsc.community.dev/graphic-era/"
+							target="_blank">
+							Join us on the Community Platform
+						</a>
 						<h3>Step 2: </h3>
-						<p>Lorem ipsum dolor sit amet.</p>
-						<button className="apply">Join Telegram Group</button>
+						<p>
+							Join the Official Telegram Group and Announcements
+							channel this will make sure you stay connected with
+							us to ask your doubts and for further Announcements
+						</p>
+						<a
+							className="apply"
+							href="https://t.me/joinchat/ObSwHEzzhweSjRFxR0ZxjQ"
+							target="_blank">
+							Join Telegram Group
+						</a>
 						<p className="and">AND</p>
-						<button className="apply">
+						<a
+							className="apply"
+							href="https://t.me/joinchat/AAAAAFFiE--SrbJEoOfzVw"
+							target="_blank">
 							Join Telegram Announcements Group
-						</button>
+						</a>
 					</div>
 					<div className="bar bar-bottom">
 						<div className="bar1"></div>

@@ -41,6 +41,7 @@ button.apply {
   cursor: pointer;
   border: none;
   color: white;
+  text-align: center;
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 16px;
@@ -120,6 +121,7 @@ a {
 }
 
 .Join section {
+  max-width: 500px;
   background: white;
   padding: 30px;
   margin: 30px 0;
