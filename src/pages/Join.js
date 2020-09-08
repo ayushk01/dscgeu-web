@@ -6,7 +6,7 @@ const Register = ({ history }) => {
 		<div className="Join">
 			<div className="container">
 				<section>
-					<h1>Join Developer Student Clubs Grpahic Era</h1>
+					<h1>Join Developer Student Clubs Graphic Era</h1>
 					<div className="bar">
 						<div className="bar1"></div>
 						<div className="bar2"></div>
@@ -41,7 +41,7 @@ const Register = ({ history }) => {
 						<h3>Step 1: </h3>
 						<p>
 							Go to the DSC Community site and register yourself
-							thereand join Graphic Era DSC Page
+							there and join Graphic Era DSC Page
 						</p>
 						<a
 							className="apply"
