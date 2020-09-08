@@ -193,6 +193,35 @@ a {
   margin: 0;
 }
 
+.Join .help {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #feebb4;
+  border-radius: 20px;
+  border: solid 1px #fbbc04;
+  padding: 20px;
+}
+
+.Join .help img {
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+}
+
+.Join .help .link {
+  margin-top: 2px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  border-bottom: dotted 2px #fbbc04;
+}
+
+.Join .help a {
+  color: #c99603;
+}
+
 .Home {
   background: no-repeat url("./assets/vectors/back2.svg");
   background-size: cover;

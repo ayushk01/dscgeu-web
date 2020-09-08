@@ -142,6 +142,27 @@ a {
       }
 		}
 	}
+	.help{
+		margin-bottom: 10px;
+		display: flex;
+		background: lighten($color: $yellow, $amount: 35);
+		border-radius: 20px;
+		border: solid 1px $yellow;
+		padding: 20px ;
+		img{
+			height: 40px;
+			width: 40px;
+			margin-right: 5px;
+		}
+		.link{
+			margin-top: 2px;
+			max-width: max-content;
+			border-bottom: dotted 2px $yellow ;
+		}
+		a{
+			color:darken($color: $yellow, $amount: 10);
+		}
+	}
 }
 
 .Home {

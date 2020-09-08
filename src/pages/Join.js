@@ -17,6 +17,27 @@ const Register = ({ history }) => {
 							To become a member at DSC Please follow the below
 							mentioned Steps
 						</p>
+
+						<div className="help">
+							<img
+								src="https://static.thenounproject.com/png/16966-200.png"
+								alt="bulb"
+							/>
+							<div className="text">
+								<div className="content">
+									If you get stuck just refer the detailed
+									instructions for help :)
+								</div>
+								<div className="link">
+									<a
+										href="https://dscgeu.now.sh/static/dscjoin.pdf"
+										target="_blank">
+										Instructions PDF
+									</a>
+								</div>
+							</div>
+						</div>
+
 						<h3>Step 1: </h3>
 						<p>
 							Go to the DSC Community site and register yourself
