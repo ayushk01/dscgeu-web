@@ -1,16 +1,16 @@
 @font-face {
-  font-family: "Product Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"),
-    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
-      format("woff2");
+	font-family: "Product Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"), local("OpenSans"),
+		url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+			format("woff2");
 }
 
 * {
-  font-family: "Product Sans";
-  margin: 0;
-  padding: 0;
+	font-family: "Product Sans";
+	margin: 0;
+	padding: 0;
 }
 
 $green: #0f9d58;
@@ -18,281 +18,354 @@ $blue: #4285f4;
 $yellow: #fbbc04;
 $red: #ea4335;
 
-#G { color: $blue;}
-#o { color: $red;}
-#o2 { color: $yellow;}
-#g { color: $blue;}
-#l { color: $green;}
-#e { color: $red;}
+#G {
+	color: $blue;
+}
+#o {
+	color: $red;
+}
+#o2 {
+	color: $yellow;
+}
+#g {
+	color: $blue;
+}
+#l {
+	color: $green;
+}
+#e {
+	color: $red;
+}
 
 //Common
-a.apply {
-  outline: none;
-  cursor: pointer;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 16px;
-  background: $blue;
+a.apply,
+button.apply {
+	outline: none;
+	cursor: pointer;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	background: $blue;
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 //Main
 
 .Header {
-  padding: 10px 15%;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 3fr 1fr;
-  box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
-  .links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    .link {
-      cursor: pointer;
-      max-width: max-content;
-      user-select: none;
-    }
-    .selected {
-      color: $blue;
-      border-bottom: 2px solid $blue;
-    }
-  }
+	padding: 10px 15%;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 3fr 1fr;
+	box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+	.links {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		.link {
+			cursor: pointer;
+			max-width: max-content;
+			user-select: none;
+		}
+		.selected {
+			color: $blue;
+			border-bottom: 2px solid $blue;
+		}
+	}
 }
 
 .Footer {
-  box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
-  display: flex;
-  margin-top: 30px;
-  padding: 20px;
-  justify-content: center;
+	box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+	display: flex;
+	margin-top: 30px;
+	padding: 20px;
+	justify-content: center;
+}
+.container {
+	margin: 0 15%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.Join {
+	background: no-repeat url("./assets/vectors/back2.svg");
+	background-size: cover;
+	section {
+		background: white;
+		padding: 30px;
+		margin: 30px 0;
+		border-radius: 30px;
+		box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		h1,
+		h3 {
+			color: #363636;
+		}
+		h1 {
+			text-align: center;
+		}
+		h3 {
+			margin: 10px 0;
+		}
+		p {
+			color: #474747;
+			margin-bottom: 20px;
+		}
+		.and {
+			margin: 5px 0;
+			text-align: center;
+			font-weight: 600;
+		}
+		.bar {
+			margin-bottom: 20px;
+		}
+		.content {
+			display: flex;
+			flex-direction: column;
+    }
+    .bar-bottom{
+      margin-top: 20px;
+    }
+		.enjoy {
+      text-align: center;
+      h3{
+        margin: 0;
+      }
+		}
+	}
 }
 
 .Home {
-  background: no-repeat url("./assets/vectors/back2.svg");
-  background-size: cover;
-  .container {
-    margin: 0 15%;
-    min-height: 80vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  section {
-    background: white;
-    padding: 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-    box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+	background: no-repeat url("./assets/vectors/back2.svg");
+	background-size: cover;
+	.container {
+		margin: 0 15%;
+		min-height: 80vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	section {
+		background: white;
+		padding: 30px;
+		margin: 30px 0;
+		border-radius: 30px;
+		box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .content {
-      margin-top: 20px;
-      text-align: center;
-      font-size: 18px;
-      color: #474747;
-      img {
-        display: inline-block;
-        height: 20px;
-      }
-    }
-    .register {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      margin-top: 20px;
-      .text {
-        font-size: 18px;
-        text-align: center;
-        margin: 20px;
-        color: #0f9d58;
-      }
-    }
-  }
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.content {
+			margin-top: 20px;
+			text-align: center;
+			font-size: 18px;
+			color: #474747;
+			img {
+				display: inline-block;
+				height: 20px;
+			}
+		}
+		.register {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-around;
+			margin-top: 20px;
+			.text {
+				font-size: 18px;
+				text-align: center;
+				margin: 20px;
+				color: #0f9d58;
+			}
+		}
+	}
 }
 
 .Register {
-  .container {
-    margin: 10px 15%;
-    .heading {
-      margin-top: 30px;
-      font-size: 28px;
-    }
-    .sub-heading {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-    .section {
-      margin: 30px 0;
-    }
-    .cards {
-      display: flex;
-      align-items: initial;
-      justify-content: flex-start;
-    }
-    .card {
-      box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
-      padding: 30px;
-      width: 30%;
-      border-radius: 20px;
-      margin: 10px;
-      .card-head {
-        font-size: 22px;
-        margin-bottom: 10px;
-      }
-      .card-body {
-        color: #363636;
-        margin-bottom: 15px;
-        .main {
-        }
-        .role {
-          // color: $green;
-          margin-top: 10px;
-          margin-bottom: 30px;
-        }
-      }
-      .alert {
-        padding: 15px;
-        border-radius: 20px;
-        background: lighten($red, 35);
-        text-align: center;
-        color: $red;
-      }
-    }
-  }
+	.container {
+		margin: 10px 15%;
+		.heading {
+			margin-top: 30px;
+			font-size: 28px;
+		}
+		.sub-heading {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		.section {
+			margin: 30px 0;
+		}
+		.cards {
+			display: flex;
+			align-items: initial;
+			justify-content: flex-start;
+		}
+		.card {
+			box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+			padding: 30px;
+			width: 30%;
+			border-radius: 20px;
+			margin: 10px;
+			.card-head {
+				font-size: 22px;
+				margin-bottom: 10px;
+			}
+			.card-body {
+				color: #363636;
+				margin-bottom: 15px;
+				.role {
+					// color: $green;
+					margin-top: 10px;
+					margin-bottom: 30px;
+				}
+			}
+			.alert {
+				padding: 15px;
+				border-radius: 20px;
+				background: lighten($red, 35);
+				text-align: center;
+				color: $red;
+			}
+		}
+	}
 }
 
 .bar {
-  display: flex;
-  margin-top: 7px;
-  .bar1 {
-    background: $blue;
-    width: 100px;
-    height: 3px;
-    border-radius: 100px;
-  }
-  .bar2 {
-    background: $red;
-    margin-left: 3px;
-    width: 30px;
-    height: 3px;
-    border-radius: 100px;
-  }
-  .bar3 {
-    background: $yellow;
-    margin-left: 3px;
-    width: 10px;
-    height: 3px;
-    border-radius: 100px;
-  }
+	display: flex;
+	margin-top: 7px;
+	.bar1 {
+		background: $blue;
+		width: 100px;
+		height: 3px;
+		border-radius: 100px;
+	}
+	.bar2 {
+		background: $red;
+		margin-left: 3px;
+		width: 30px;
+		height: 3px;
+		border-radius: 100px;
+	}
+	.bar3 {
+		background: $yellow;
+		margin-left: 3px;
+		width: 10px;
+		height: 3px;
+		border-radius: 100px;
+	}
 }
 
 .Slider {
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
-  button {
-    outline: none;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    background: white;
-    color: $blue;
-    cursor: pointer;
-  }
-  .middle {
-    border-radius: 0px;
-  }
-  .left {
-    border-radius: 20px 0px 0px 20px;
-  }
-  .right {
-    border-radius: 0px 20px 20px 0px;
-  }
-  .selected {
-    color: white;
-    background: $blue;
-  }
+	background: white;
+	border-radius: 20px;
+	box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+	button {
+		outline: none;
+		border: none;
+		padding: 10px 20px;
+		border-radius: 20px;
+		background: white;
+		color: $blue;
+		cursor: pointer;
+	}
+	.middle {
+		border-radius: 0px;
+	}
+	.left {
+		border-radius: 20px 0px 0px 20px;
+	}
+	.right {
+		border-radius: 0px 20px 20px 0px;
+	}
+	.selected {
+		color: white;
+		background: $blue;
+	}
 }
 
 .Content {
-  .heading {
-    font-size: 32px;
-  }
-  .content {
-    ul {
-      list-style-type: none;
-      font-size: 22px;
-      text-align: left;
-      li {
-        .explain {
-          font-size: 18px;
-          margin-left: 40px;
-        }
-      }
-    }
-  }
+	.heading {
+		font-size: 32px;
+	}
+	.content {
+		ul {
+			list-style-type: none;
+			font-size: 22px;
+			text-align: left;
+			li {
+				.explain {
+					font-size: 18px;
+					margin-left: 40px;
+				}
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: 600px) {
-  .Header {
-    grid-template-columns: 1fr;
-    padding: 10px 10%;
-    align-content: center;
-    .logo {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .links {
-      margin-top: 10px;
-      align-items: center;
-      justify-items: center;
-    }
-  }
-  .Home {
-    .container {
-      margin: 0;
-    }
-    img {
-      height: 120px;
-    }
-  }
-  .Register {
-    .container {
-      margin: 10px 7%;
-    }
-    .cards {
-      flex-wrap: wrap;
-      .card {
-        width: 100%;
-      }
-    }
-  }
-  .Content {
-    .heading {
-      font-size: 20px;
-    }
-    .content {
-      ul {
-        list-style-type: none;
-        font-size: 16px;
-        text-align: left;
-        li {
-          .explain {
-            font-size: 14px;
-            margin-left: 40px;
-          }
-        }
-      }
-    }
-  }
+	.Header {
+		grid-template-columns: 1fr;
+		padding: 10px 10%;
+		align-content: center;
+		.logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.links {
+			margin-top: 10px;
+			align-items: center;
+			justify-items: center;
+		}
+	}
+	.Join {
+		.container {
+			margin: 0 10px;
+		}
+	}
+	.Home {
+		.container {
+			margin: 0;
+		}
+		img {
+			height: 120px;
+		}
+	}
+	.Register {
+		.container {
+			margin: 10px 7%;
+		}
+		.cards {
+			flex-wrap: wrap;
+			.card {
+				width: 100%;
+			}
+		}
+	}
+	.Content {
+		.heading {
+			font-size: 20px;
+		}
+		.content {
+			ul {
+				list-style-type: none;
+				font-size: 16px;
+				text-align: left;
+				li {
+					.explain {
+						font-size: 14px;
+						margin-left: 40px;
+					}
+				}
+			}
+		}
+	}
 }

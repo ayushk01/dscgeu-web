@@ -35,7 +35,8 @@
   color: #ea4335;
 }
 
-a.apply {
+a.apply,
+button.apply {
   outline: none;
   cursor: pointer;
   border: none;
@@ -97,6 +98,97 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.container {
+  margin: 0 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Join {
+  background: no-repeat url("./assets/vectors/back2.svg");
+  background-size: cover;
+}
+
+.Join section {
+  background: white;
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  -webkit-box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Join section h1,
+.Join section h3 {
+  color: #363636;
+}
+
+.Join section h1 {
+  text-align: center;
+}
+
+.Join section h3 {
+  margin: 10px 0;
+}
+
+.Join section p {
+  color: #474747;
+  margin-bottom: 20px;
+}
+
+.Join section .and {
+  margin: 5px 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Join section .bar {
+  margin-bottom: 20px;
+}
+
+.Join section .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Join section .bar-bottom {
+  margin-top: 20px;
+}
+
+.Join section .enjoy {
+  text-align: center;
+}
+
+.Join section .enjoy h3 {
+  margin: 0;
 }
 
 .Home {
@@ -342,6 +434,9 @@ a {
         -ms-flex-align: center;
             align-items: center;
     justify-items: center;
+  }
+  .Join .container {
+    margin: 0 10px;
   }
   .Home .container {
     margin: 0;

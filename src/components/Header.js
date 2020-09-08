@@ -9,7 +9,7 @@ const Header = ({ history }) => {
             </div>
             <div className="links">
                 <div className={(url === '/') ? "link selected" : "link"} onClick={() => history.push('/')}>Home</div>
-                <div className={(url === '/register') ? "link selected" : "link"} onClick={() => history.push('/register')}>Register</div>
+                <div className={(url === '/join') ? "link selected" : "link"} onClick={() => history.push('/join')}>Join</div>
             </div>
         </div>
     )

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 //Importing Pages
 import Home from './pages/Home';
 import Register from './pages/Register';
+import Join from './pages/Join';
 
 //Importing Components
 import Header from './components/Header';
@@ -19,6 +20,7 @@ const App = () => {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/register" exact component={Register} />
+          <Route path="/join" exact component={Join} />
           <Route path="/why" exact component={Why} />
           <Route path="/domains" exact component={Domains} />
         </Switch>
