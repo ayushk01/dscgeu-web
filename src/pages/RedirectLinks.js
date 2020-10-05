@@ -51,6 +51,8 @@ const RedirectLinks = () => {
 								technical skills and intelligence in a peer to
 								peer learning environment.
 							</p>
+							<h4>Date : October 10, 2020</h4>
+							<h4>Time : 12:00pm - 2:00pm</h4>
 						</div>
 						<button className="apply" disabled>
 							Join Session
@@ -62,8 +64,8 @@ const RedirectLinks = () => {
 							/>
 							<div className="text">
 								<div className="content">
-									Refresh the Page 15 min before the event
-									time to join the event
+									Refresh this page 15 min before the event
+									time to join this session
 								</div>
 							</div>
 						</div>
@@ -95,7 +97,7 @@ const RedirectLinks = () => {
 						}>
 						<FaInstagram color="#ff46a4" />
 						<div className="name" style={{ color: "#ff46a4" }}>
-							dscgeu
+							dsc.geu
 						</div>
 					</div>
 					<div

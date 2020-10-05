@@ -370,6 +370,13 @@ a {
 			margin-right: 30%;
 			color: #474747;
 		}
+		h4{
+			color: $blue;
+		}
+		h4:first-of-type {
+			color: $green;
+			margin-top: 10px;
+		}
 		button {
 			margin-top: 15px;
 		}
@@ -504,7 +511,7 @@ a {
 		.top {
 			margin-top: 50px;
 		}
-		.links{
+		.links {
 			grid-template-columns: 1fr 1fr;
 		}
 	}
