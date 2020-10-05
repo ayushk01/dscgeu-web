@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 
 //Importing Pages
 import Home from "./pages/Home";
@@ -10,6 +10,7 @@ import Join from "./pages/Join";
 import Footer from "./components/Footer";
 import Domains from "./pages/Domains";
 import Why from "./pages/Why";
+import RedirectLinks from "./pages/RedirectLinks";
 
 const App = () => {
 	return (
@@ -21,8 +22,8 @@ const App = () => {
 					<Route path="/join" exact component={Join} />
 					<Route path="/why" exact component={Why} />
 					<Route path="/domains" exact component={Domains} />
+					<Route path="/induction" exact component={RedirectLinks} />
 				</Switch>
-				<Footer />
 			</Router>
 		</div>
 	);

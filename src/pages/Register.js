@@ -1,6 +1,7 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import Card from "../components/Card";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Register = ({ history }) => {
@@ -59,43 +60,46 @@ const Register = ({ history }) => {
 	};
 
 	return (
-		<div className="Register">
+		<>
 			<Header />
-			<div className="container">
-				<div className="heading">Currently Open For</div>
+			<div className="Register">
+				<div className="container">
+					<div className="heading">Currently Open For</div>
 
-				<div className="section">
-					<div className="sub-heading">Technical</div>
-					<div className="cards">
-						{positions.tech.map((item) => (
-							<Card
-								key={item.title}
-								title={item.title}
-								body={item.body}
-								role={item.role}
-								formLink={item.link}
-								isAlert={item.isAlert}
-							/>
-						))}
+					<div className="section">
+						<div className="sub-heading">Technical</div>
+						<div className="cards">
+							{positions.tech.map((item) => (
+								<Card
+									key={item.title}
+									title={item.title}
+									body={item.body}
+									role={item.role}
+									formLink={item.link}
+									isAlert={item.isAlert}
+								/>
+							))}
+						</div>
 					</div>
-				</div>
 
-				<div className="section">
-					<div className="sub-heading">Non Technical</div>
-					<div className="cards">
-						{positions.nontech.map((item) => (
-							<Card
-								key={item.title}
-								title={item.title}
-								body={item.body}
-								role={item.role}
-								formLink={item.link}
-							/>
-						))}
+					<div className="section">
+						<div className="sub-heading">Non Technical</div>
+						<div className="cards">
+							{positions.nontech.map((item) => (
+								<Card
+									key={item.title}
+									title={item.title}
+									body={item.body}
+									role={item.role}
+									formLink={item.link}
+								/>
+							))}
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+			<Footer />
+		</>
 	);
 };
 
