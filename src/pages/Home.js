@@ -1,9 +1,11 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
 import Slider from "../components/Slider";
+import Header from "../components/Header";
 const Home = ({ history }) => {
 	return (
 		<div className="Home">
+			<Header />
 			<div className="container">
 				<section className="top">
 					<div className="logo">

@@ -1,9 +1,11 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
+import Header from "../components/Header";
 
 const Register = ({ history }) => {
 	return (
 		<div className="Join">
+			<Header />
 			<div className="container">
 				<section>
 					<h1>Join Developer Student Clubs Graphic Era</h1>

@@ -131,36 +131,36 @@ a {
 		.content {
 			display: flex;
 			flex-direction: column;
-    }
-    .bar-bottom{
-      margin-top: 20px;
-    }
+		}
+		.bar-bottom {
+			margin-top: 20px;
+		}
 		.enjoy {
-      text-align: center;
-      h3{
-        margin: 0;
-      }
+			text-align: center;
+			h3 {
+				margin: 0;
+			}
 		}
 	}
-	.help{
+	.help {
 		margin-bottom: 10px;
 		display: flex;
 		background: lighten($color: $yellow, $amount: 35);
 		border-radius: 20px;
 		border: solid 1px $yellow;
-		padding: 20px ;
-		img{
+		padding: 20px;
+		img {
 			height: 40px;
 			width: 40px;
 			margin-right: 5px;
 		}
-		.link{
+		.link {
 			margin-top: 2px;
 			max-width: max-content;
-			border-bottom: dotted 2px $yellow ;
+			border-bottom: dotted 2px $yellow;
 		}
-		a{
-			color:darken($color: $yellow, $amount: 10);
+		a {
+			color: darken($color: $yellow, $amount: 10);
 		}
 	}
 }
