@@ -54,7 +54,7 @@ const RedirectLinks = () => {
 							<h4>Date : October 10, 2020</h4>
 							<h4>Time : 12:00pm - 2:00pm</h4>
 						</div>
-						<button className="apply" onClick={() => window.open("https://bit.ly/33NIDuB")}>
+						<button className="apply" onClick={() => window.open("https://bit.ly/3jNtYVN")}>
 							Join Session
 						</button>
 						<div className="help">
