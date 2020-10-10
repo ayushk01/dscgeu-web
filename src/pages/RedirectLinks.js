@@ -54,7 +54,7 @@ const RedirectLinks = () => {
 							<h4>Date : October 10, 2020</h4>
 							<h4>Time : 12:00pm - 2:00pm</h4>
 						</div>
-						<button className="apply" disabled>
+						<button className="apply" onClick={() => window.open("https://teams.microsoft.com/l/meetup-join/19%3ameet1via1qwwkc2ssfu0sy7c6qhr8e4curh64j8vglc0pz0mlc0pz0mglc0pz0mglc0pz0mglc0pz0mglc0pz0mglc0pz0mglc0pz0mMWJlZDg4YWI5OTQ0%40thread.v2/0?context=%7b%22Tid%22%3a%221490b17d-5dc9-4cbf-aeba-a2e854f521b8%22%2c%22Oid%22%3a%2278b2e772-7fc3-406f-8a46-ea8b70f095db%22%2c%22IsBroadcastMeeting%22%3atrue%7d")}>
 							Join Session
 						</button>
 						<div className="help">
@@ -64,8 +64,8 @@ const RedirectLinks = () => {
 							/>
 							<div className="text">
 								<div className="content">
-									Refresh this page 15 min before the event
-									time to join this session
+									Join using the above button <br/>
+									Message/Call on +91 9548939909 for queries  
 								</div>
 							</div>
 						</div>
