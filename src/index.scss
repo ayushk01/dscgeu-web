@@ -691,14 +691,16 @@ a {
 
     .container4 {
       flex-direction: column;
-      img {
-        position: absolute;
-        top: relative;
-        margin-top: -120%;
-        z-index: -20;
-        left: 0;
-        opacity: 20%;
-        width: 100%;
+      .right {
+        img {
+          position: absolute;
+          top: relative;
+          margin-top: -120%;
+          z-index: -20;
+          left: 0;
+          opacity: 20%;
+          width: 100%;
+        }
       }
     }
 

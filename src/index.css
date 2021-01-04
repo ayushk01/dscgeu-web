@@ -853,13 +853,13 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .Home .container4 img {
+  .Home .container4 .right img {
     position: absolute;
     top: relative;
     margin-top: -120%;
     z-index: -20;
     left: 0;
-    opacity: 40%;
+    opacity: 20%;
     width: 100%;
   }
   .Home .container5 {
